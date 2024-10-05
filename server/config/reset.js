@@ -9,7 +9,7 @@ const createItemsTable = async () => {
         CREATE TABLE IF NOT EXISTS items (
             id SERIAL PRIMARY KEY,
             name VARCHAR(255) NOT NULL,
-            calories INT NOT NULL,
+            calories VARCHAR(255) NOT NULL,
             imageURL VARCHAR(255) NOT NULL,
         )
     `
